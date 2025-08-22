@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.main_heading{
+	margin: 0px auto;
+	max-width: 960px;
+}
+
+.faq_accordian{
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid grey;
+	
+	border-radius: 10px 10px 0px 00px;
+	padding: 0px 10px;
+	box-shadow: 2px 1px 1px rgba(0,0,0,.5);
+}
+
+.plus_sign{
+	font-size: 22px;
+}
+
+.faq_accordian_ans{
+	
+	border: 2px solid grey;
+	border-radius: 0px 0px 10px 10px;
+	padding: 0px 10px;
+	box-shadow: 2px 1px 1px rgba(0,0,0,.5);
+}
+
+.minus_sign{
+	font-size: 22px;
+}
